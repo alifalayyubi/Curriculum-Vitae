@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+ background: #836FFF; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #F0F3FF;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    box-shadow: 0 30px 55px rgba('0,0,0,0.1');
+}
+.container .left_side
+{
+    position: relative;
+    background: #211951;
+    padding: 40px;
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.profiletext .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profiletext .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profiletext h2
+{
+    color: #F0F3FF;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.contact
+{
+    padding-top: 40px; 
+}
+.title
+{
+    color: #F0F3FF;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact ul
+{
+    position: relative;
+}
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #836FFF;
+}
+.contact ul li span
+{
+    color: #F0F3FF;
+    font-weight: 300;
+}
+.contact.a li
+{
+    margin-bottom: 15px;
+}
+.contact.a h5
+{
+    color: #F0F3FF;
+    font-weight: 500;
+}
+.contact.a h4:nth-child(2)
+{
+    color: #F0F3FF;
+    font-weight: 500; 
+}
+.contact.a h4
+{
+    color: #F0F3FF;
+    font-weight: 300; 
+}
+.container .right_side
+{
+    position: relative;
+    background: #F0F3FF;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: #836FFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: black;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year
+{
+    min-width: 150px;
+}
+.about .box .year h5
+{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.about .box .text h4
+{
+    color: #211951;
+    font-size: 16px ;
+}
+
+@media (max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns:repeat(1,1fr);
+    }
+}
+@media (max-width: 1000px)
+{
+    .about .box
+    {
+        flex-direction: column;
+    }
+    .about .box .year
+    {
+        margin-bottom: 5px;
+    }
+}
