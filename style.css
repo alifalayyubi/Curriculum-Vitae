@@ -176,7 +176,7 @@ p
         grid-template-columns:repeat(1,1fr);
     }
 }
-@media (max-width: 1000px)
+@media (max-width: 600px)
 {
     .about .box
     {
