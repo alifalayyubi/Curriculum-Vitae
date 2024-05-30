@@ -8,7 +8,7 @@
 }
 body
 {
- background: #836FFF; 
+ background: #86B6F6; 
  display: flex;
  justify-content: center;
  align-items: center;
@@ -23,13 +23,13 @@ body
     background: #F0F3FF;
     margin: 50px;
     display: grid;
-    grid-template-columns: 1.2fr 2fr;
+    grid-template-columns: 1.2fr 1.8fr;
     box-shadow: 0 30px 55px rgba('0,0,0,0.1');
 }
 .container .left_side
 {
     position: relative;
-    background: #211951;
+    background: #176B87;
     padding: 40px;
 }
 .profiletext
@@ -74,7 +74,7 @@ body
 }
 .title
 {
-    color: #F0F3FF;
+    color: #B4D4FF;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -96,7 +96,7 @@ body
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #836FFF;
+    color: #B4D4FF;
 }
 .contact ul li span
 {
@@ -125,7 +125,7 @@ body
 .container .right_side
 {
     position: relative;
-    background: #F0F3FF;
+    background: #B4D4FF;
     padding: 40px;
 }
 .about
@@ -138,7 +138,7 @@ body
 }
 .title2
 {
-    color: #836FFF;
+    color: #176B87;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -164,7 +164,7 @@ p
 }
 .about .box .text h4
 {
-    color: #211951;
+    color: black;
     font-size: 16px ;
 }
 
